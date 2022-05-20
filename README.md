@@ -208,9 +208,12 @@ Appendix A: Simulation Code
 
 References
 Apkarian, J., Lacheray, H., & Martin, P. (2012). Student Workbook Inverted Pendulum Experiment for Matlab®/Simulink® Users. Quanser.
-Cazzolato, B. S., & Prime, Z. (2011). On the dynamics of the Furuta pendulum. Journal of Control Science and Engineering, 2011, 1–8. https://doi.org/10.1155/2011/528341
-Hernández-Guzmán, V. M., & Silva-Ortigoza, R. (2018). Control of a Furuta pendulum. Automatic Control with Experiments, 869–919. https://doi.org/10.1007/978-3-319-75804-6_15
-Nise, N. S. (2015). Control Systems Engineering. Wiley. 
+
+ Cazzolato, B. S., & Prime, Z. (2011). On the dynamics of the Furuta pendulum. Journal of Control Science and Engineering, 2011, 1–8. https://doi.org/10.1155/2011/528341
+
+ Hernández-Guzmán, V. M., & Silva-Ortigoza, R. (2018). Control of a Furuta pendulum. Automatic Control with Experiments, 869–919. https://doi.org/10.1007/978-3-319-75804-6_15
+
+ Nise, N. S. (2015). Control Systems Engineering. Wiley. 
 
 
 

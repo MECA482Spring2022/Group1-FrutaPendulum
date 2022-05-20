@@ -52,19 +52,38 @@ This report will go over a prototype for the design of a furuta pendulum, includ
 Figure #. Front view of the operational diagram.
 
 This is the front viewpoint for the design of the Furuta Pendulum. This includes a motor that can spin the driven shaft to swing the pendulum into its upright position if needed. The sensor connected to the driven shaft monitors the position of the pendulum and the sensor on the motor is to monitor the rotation of the motor. 
+
+
+
+
 ![image](https://user-images.githubusercontent.com/105892633/169450324-f9d6e7b6-4f22-4570-857b-fecbe428339c.png)
 
 Figure #. Top view of the operational diagram.
 
 Figure # shows the top view for the design. This viewpoint gives a better view of the two bearings that support the driven shaft. It also shows the horizontal rotation of the driven shaft. 
+
+
+
+
 ![image](https://user-images.githubusercontent.com/105892633/169450358-aa3bb1c0-e850-4ada-a13b-6ab4740a0b95.png)
+
+
+
 
 Figure #. Logical viewpoint of the Furuta Pendulum.
 
  The figure above shows the logical viewpoint of the Furuta Pendulum. 
 
 Model
+
+
+
+
 ![image](https://user-images.githubusercontent.com/105892633/169450390-bc2b7d71-5fe5-4313-ac0e-4355bf284ee5.png)
+
+
+
+
 
 Figure #. Furuta Pendulum model (Cazzolato and Prime, 2011).
 The parameters for this project are:
@@ -88,6 +107,11 @@ m2 - Mass for Arm 2
 
 
 The potential and kinetic energy can be shown with the equations from Cazzolato and Prime below.
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/105892633/169450466-2534fdf8-136b-4f53-9f96-8dbd256a1f83.png)
 
 
@@ -97,7 +121,14 @@ With the energies defined, the lagrangian can be described with the following eq
 
 
 Using this, the Euler-Lagrange is:
+
+
+
 ![image](https://user-images.githubusercontent.com/105892633/169450523-f15fb963-77a1-4fc6-ab3f-54d369fe1206.png)
+
+
+
+
 
 Where,
 qi = [𝜃1 ,𝜃2]T : generalized coordinate
@@ -107,15 +138,23 @@ Qi = [𝜏1 ,𝜏2]T : generalized torque
 Evaluating for Qi = 𝜃1 gives:
 
 
+![image](https://user-images.githubusercontent.com/105892633/169450898-5a098fe2-32a3-49b7-862f-776db5a7aa04.png)
+
+
+
 And for Qi = 𝜃2 gives:
+
+![image](https://user-images.githubusercontent.com/105892633/169450923-12edbb44-c1b3-465f-8ef9-58fcf1f80285.png)
 
 
 The linear velocities for the center of masses in arm one and two are shown below. 
 
+![image](https://user-images.githubusercontent.com/105892633/169450959-beadc820-590e-4a42-afcb-4f2269afe91c.png)
 
 
 And the linear acceleration for both arms through the center of mass is represented by:
 
+![image](https://user-images.githubusercontent.com/105892633/169450984-85241185-66d8-441c-827c-f71e739183fc.png)
 
 
 
@@ -124,13 +163,17 @@ And the linear acceleration for both arms through the center of mass is represen
 Due to the geometry of the two arms, the moment inertia in the axis of the arm is negligible. The rotational symmetry of the arms also allows the assumption that the moments of inertia in two of the principal axes are equal. The simplified inertia matrices are shown below.
 
 
+![image](https://user-images.githubusercontent.com/105892633/169451015-c4b7291d-d426-44d9-a0f1-30ff4961045e.png)
+
+
+![image](https://user-images.githubusercontent.com/105892633/169451032-b4466ceb-5ded-41f8-ae12-de967d1c925b.png)
+
+
+https://media.discordapp.net/attachments/945711373827059816/977065039720763412/matlabcode.PNG?width=549&height=497
 
 
 
 
-
-
-Sensor Calibration
 
 Controller Design and Simulation
 

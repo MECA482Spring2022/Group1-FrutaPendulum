@@ -60,7 +60,7 @@ This report will go over a prototype for the design of a furuta pendulum, includ
 ![image](https://user-images.githubusercontent.com/105892633/169450292-3e73d8a7-4b40-4b9a-8946-72b6630fbc39.png)
 
 
-Figure #. Front view of the operational diagram.
+Figure 1. Front view of the operational diagram.
 
 This is the front viewpoint for the design of the Furuta Pendulum. This includes a motor that can spin the driven shaft to swing the pendulum into its upright position if needed. The sensor connected to the driven shaft monitors the position of the pendulum and the sensor on the motor is to monitor the rotation of the motor. 
 
@@ -69,19 +69,20 @@ This is the front viewpoint for the design of the Furuta Pendulum. This includes
 
 ![image](https://user-images.githubusercontent.com/105892633/169450324-f9d6e7b6-4f22-4570-857b-fecbe428339c.png)
 
-Figure #. Top view of the operational diagram.
+Figure 2. Top view of the operational diagram.
 
 Figure # shows the top view for the design. This viewpoint gives a better view of the two bearings that support the driven shaft. It also shows the horizontal rotation of the driven shaft. 
 
 
 
 
-![image](https://user-images.githubusercontent.com/105892633/169450358-aa3bb1c0-e850-4ada-a13b-6ab4740a0b95.png)
+![image](https://user-images.githubusercontent.com/105892633/169455416-7d279acb-eaf8-487f-ae7f-3649f32ad857.png)
 
 
 
 
-Figure #. Logical viewpoint of the Furuta Pendulum.
+
+Figure 3. Logical viewpoint of the Furuta Pendulum.
 
  The figure above shows the logical viewpoint of the Furuta Pendulum. 
 
@@ -92,11 +93,8 @@ Model
 
 ![image](https://user-images.githubusercontent.com/105892633/169450390-bc2b7d71-5fe5-4313-ac0e-4355bf284ee5.png)
 
-
-
-
-
-Figure #. Furuta Pendulum model (Cazzolato and Prime, 2011).
+Figure 4. Furuta Pendulum model (Cazzolato and Prime, 2011).
+ 
 The parameters for this project are:
 x1 - Rotational position of Arm 1 in the x-axis
 x2 - Rotational position of Arm 2 in the x-axis
@@ -192,6 +190,7 @@ Controller Design and Simulation
 
 
 
+![image](https://user-images.githubusercontent.com/105892633/169455595-764997dd-aa8c-42a6-8459-fef0beb1cb92.png)
 
 
 
@@ -199,7 +198,7 @@ Controller Design and Simulation
 
 
 
-Figure  . Coppeliasim Model of Furuta Pendulum System
+Figure 5. Coppeliasim Model of Furuta Pendulum System
 
 Appendix A: Simulation Code
 

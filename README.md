@@ -1,3 +1,3 @@
 # Group1-FrutaPendulum
-Final project for MECA 482 controls spring 2022 semsters 
-by Phin Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos
+MECA 482 Control System Design Final project (Spring 2022)
+by Phinease Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos

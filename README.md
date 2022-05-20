@@ -3,8 +3,8 @@
 Final project for MECA 482 controls spring 2022 semsters 
 Team: Phin Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos
 <p align="center">
-    // Your content
-</p>
+ 
+    
 
 Futura Pendulum
 MECA 482: Control System Design

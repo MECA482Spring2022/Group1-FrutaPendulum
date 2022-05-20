@@ -181,8 +181,8 @@ Due to the geometry of the two arms, the moment inertia in the axis of the arm i
 ![image](https://user-images.githubusercontent.com/105892633/169451032-b4466ceb-5ded-41f8-ae12-de967d1c925b.png)
 
 
-https://media.discordapp.net/attachments/945711373827059816/977065039720763412/matlabcode.PNG?width=549&height=497
 
+![image](https://user-images.githubusercontent.com/105892633/169454801-5e1ac0e7-06d0-4e3e-ab3b-4084aed5f16f.png)
 
 
 

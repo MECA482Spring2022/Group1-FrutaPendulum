@@ -2,7 +2,9 @@
 # California State University, Chico
 Final project for MECA 482 controls spring 2022 semsters 
 Team: Phin Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos
-<h1 align="center">Material Bread</h1>
+<p align="center">
+    // Your content
+</p>
 
 Futura Pendulum
 MECA 482: Control System Design

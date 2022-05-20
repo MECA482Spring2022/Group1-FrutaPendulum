@@ -1,7 +1,7 @@
 # Group1-FrutaPendulum
 # California State University, Chico
 Final project for MECA 482 controls spring 2022 semsters 
-Team mebersPhin Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos
+Team: Phin Francis, Jacob Hanson, Emmett Kiggins, Isaac Pendilla, Daniel Villalobos
 
 Futura Pendulum
 MECA 482: Control System Design
@@ -13,6 +13,8 @@ Emmett Kiggins
 Isaac Pendilla
 Daniel Villalobos
 
+
+![image](https://user-images.githubusercontent.com/105892633/169450137-6e24e8ba-d512-4ff5-b310-f3945275c4e0.png)
 
 
 
@@ -29,41 +31,12 @@ Department of Mechanical and Mechatronic Engineering and Sustainable Manufacturi
 
 
 Table of Contents
-Introduction
-Model
-Sensor Calibration
-Controller Design and Simulation
-Appendix A: Simulation Code
-References
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1)Introduction
+2)Model
+3)Sensor Calibration
+4)Controller Design and Simulation
+5)Appendix A: Simulation Code
+6)References
 
 
 
@@ -73,21 +46,25 @@ The furuta pendulum is a device that has a driven arm that rotates in the horizo
 
 This report will go over a prototype for the design of a furuta pendulum, including a mathematical model of the system, diagrams of the project, and a summary of the simulation results. The capabilities for the system include achieving self balancing through the method of correcting its alignment when experiencing external force. It also must return the pendulum to its upright position when experiencing up to 25 newtons of external force.
 
+![image](https://user-images.githubusercontent.com/105892633/169450292-3e73d8a7-4b40-4b9a-8946-72b6630fbc39.png)
 
 
 Figure #. Front view of the operational diagram.
 
 This is the front viewpoint for the design of the Furuta Pendulum. This includes a motor that can spin the driven shaft to swing the pendulum into its upright position if needed. The sensor connected to the driven shaft monitors the position of the pendulum and the sensor on the motor is to monitor the rotation of the motor. 
+![image](https://user-images.githubusercontent.com/105892633/169450324-f9d6e7b6-4f22-4570-857b-fecbe428339c.png)
 
 Figure #. Top view of the operational diagram.
 
 Figure # shows the top view for the design. This viewpoint gives a better view of the two bearings that support the driven shaft. It also shows the horizontal rotation of the driven shaft. 
+![image](https://user-images.githubusercontent.com/105892633/169450358-aa3bb1c0-e850-4ada-a13b-6ab4740a0b95.png)
 
 Figure #. Logical viewpoint of the Furuta Pendulum.
 
  The figure above shows the logical viewpoint of the Furuta Pendulum. 
 
 Model
+![image](https://user-images.githubusercontent.com/105892633/169450390-bc2b7d71-5fe5-4313-ac0e-4355bf284ee5.png)
 
 Figure #. Furuta Pendulum model (Cazzolato and Prime, 2011).
 The parameters for this project are:
@@ -111,13 +88,16 @@ m2 - Mass for Arm 2
 
 
 The potential and kinetic energy can be shown with the equations from Cazzolato and Prime below.
+![image](https://user-images.githubusercontent.com/105892633/169450466-2534fdf8-136b-4f53-9f96-8dbd256a1f83.png)
 
 
 With the energies defined, the lagrangian can be described with the following equation.
+![image](https://user-images.githubusercontent.com/105892633/169450502-5b28acf4-5efa-4895-9352-c2d1ff34244c.png)
 
 
 
 Using this, the Euler-Lagrange is:
+![image](https://user-images.githubusercontent.com/105892633/169450523-f15fb963-77a1-4fc6-ab3f-54d369fe1206.png)
 
 Where,
 qi = [𝜃1 ,𝜃2]T : generalized coordinate
